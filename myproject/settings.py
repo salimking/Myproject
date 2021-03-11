@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-heroku config:set DISABLE_COLLECTSTATIC=1
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
